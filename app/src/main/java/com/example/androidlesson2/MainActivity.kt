@@ -115,7 +115,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
         binding.switch1.setOnCheckedChangeListener { buttonView, isChecked ->
 
             setSwitchAppearance(binding.switch1, isChecked,binding)
